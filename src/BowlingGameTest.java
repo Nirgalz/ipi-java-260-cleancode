@@ -22,7 +22,7 @@ public class BowlingGameTest {
 
     @Test
     public void bonusDuSpare(){
-        game.roll(8);
+        game.roll(10);
         game.roll(2);
         game.roll(1);
         rollMany(17, 0);
